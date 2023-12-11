@@ -1,0 +1,35 @@
+.slider{
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 77%;
+}
+
+.slider .sliderTrack{
+    animation: scroll 20s linear infinite forwards;
+    display: flex;
+    gap: 40px;
+    width: calc(250px * 18);
+}
+
+.slider .slide {
+    height: 20px;
+    width: 70px;
+}
+
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-200px * 9));
+    }
+}
+
+@media screen and (min-width:768px) {
+    .slider .slide {
+        height: 30px;
+        width: 150px;
+    }
+}

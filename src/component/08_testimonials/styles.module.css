@@ -1,0 +1,19 @@
+.testimonial{
+    transition: opacity 1s ease-in-out;
+}
+
+
+@media screen and (min-width:1441px){
+    .botCircle{
+        width: 500px;
+    }
+    .topCircle{
+        right: 0;
+    }
+    .testimonial{
+        width: 1000px;
+    }
+    .testimonialContainer{
+        transform: translateX(1000px);
+    }
+}

@@ -1,0 +1,106 @@
+{
+  "title": "Collect Your Shopping",
+  "convenienceDelivered": "Convenience Delivered",
+  "straigntToYourDoor": "Straight to your door",
+  "boldTitle": "Collect Your Shopping",
+  "weElevateTextGreen":"We elevate",
+  "weElevateTextBlack":"your grocery shopping experience",
+  "makeItEasyToShop": "Collect Your Shopping makes it easy to shop for groceries and have them almost instantly delivered to your doorstep. Our app features a wide range of products, including fresh produce, pantry staples, and household essentials.",
+  "downloadNowText":"Download Now",
+  "welcomeToCys":"Welcome to CYS - Where Grocery Shopping is Effortless! Say goodbye to long waits and hello to a world of choices. With its key features, CYS is your key to a seamless grocery experience. Join us today and embrace convenience!",
+  "liveTrackingTitle": "Live Tracking",
+  "liveTrackingDescription": "Collect your Shopping allows you to track your delivery in real-time, so you know exactly when to expect your order.",
+  "wideSectionTitle": "Wide section of products",
+  "wideSectionDescription": "Collect your Shopping offers a wide range of products to choose from, including groceries, food, pharmaceutical products and many more.",
+  "deliveredInMinutesTitle": "Delivered in minutes",
+  "deliveredInMinutesDescription": "No time to go to the store? Get everything you need delivered quickly by our verified members!",
+  "starsText":"4.7 out of 5 stars in the App Store",
+  "mobileUxAwardText":"Winner of Mobile UX Awards 2023",
+  "featuredByAppleText":"Featured by Apple App Store and Google Play",
+  "whyText":"Why",
+  "featureTitle": "Collect Your Shopping?",
+  "featureConvenienceTitle": "Convenience",
+  "featureConvenienceDescription": "Collect Your Shopping allows you to order groceries and essentials from your favorite shops and have it delivered right to your door, so you don’t have to leave your house or wait in long lines.",
+  "featureContributeTitle": "Contribute and Get Rewarded",
+  "featureContributeDescription": "Want to earn some extra money? Become a Collect Your Shopping deliverer. Pick-up groceries for our clients and get paid based on the distance of the delivery.",
+  "featureWideVarietyTitle": "Wide Variety",
+  "featureWideVarietyDescription": "Collect Your Shopping offers a wide range of available shops, so you can try new places or stick to your favorites. With Collect Your Shopping, you have access to a variety of shopping options, including groceries, clothing, liquor and more.",
+  "orderFlowTitle": "Order Flow",
+  "orderFlowDescription": "The order flow of Collect Your Shopping is as follow:",
+  "orderStep":"Step",
+  "orderPlacementTitle":"Order Placement",
+  "orderPlacementDescription":"Customers can place an order by browsing the menu of their preferred grocery store / shop and adding items to their cart. They can also customize their order and schedule delivery time",
+  "orderProcessingTitle": "Order Processing",
+  "orderProcessingDescription": "Once the customer places the order, it is sent to the shop for processing and we assign a pick-upper for the delivery..",
+  "orderDeliveryTitle": "Order Delivery",
+  "orderDeliveryDescription": "The driver picks up the order from the shop and delivers it to the customers address. Customers can track the status of their order in real-time and see the location of the deliverer.",
+  "orderCompletionTitle": "Order Completion",
+  "orderCompletionDescription": "Once the driver delivers the order, the customer confirms receipt and can rate the deliverer. The payment is processed and the customer receives a receipt of the purchase.",
+  "coreValues": "Our Core Values",
+  "innovativeTitle": "Innovative",
+  "innovativeDescription": "We revolutionize the way you shop",
+  "trustworthyTitle": "Trustworthy",
+  "trustworthyDescription": "We are committed to ensuring your satisfaction",
+  "sustainableTitle": "Sustainable",
+  "sustainableDescription": "We strive for sustainability in everything we do",
+  "inclusivityTitle": "Inclusivity",
+  "inclusivityDescription": "Our commitment to inclusion is unconditional",
+  "positiveTitle": "Enthousiastic",
+  "positiveDescription": "We believe in the power of positivity",
+  "adventurousTitle": "Adventurous",
+  "adventurousDescription": "Adventurity drives us to discover new possibilities",
+  "responsibilityTitle": "Responsibility",
+  "responsibilityDescription": "We always act with the highest standards of honesty and ethics",
+  "frequentlyTitle": "Frequently",
+  "askedQuestionsTitle":"asked questions",
+  "frequentlyAskedQuestionDescription": "Get answers to users most commonly asked questions.",
+  "questionCYSTitle": "What is Collect Your Shopping?",
+  "questionCYSDescription": "Collect Your Shopping is the shopping service for everything you are looking for. All your groceries, from fresh fruit and vegetables to ingredients for your dinner, but also everything you may need for a nice Friday afternoon drink or spring cleaning. We have everything and deliver it to your home, office or even the park in no time!",
+  "questionFastDeliverTitle": "Why do I sometimes have to wait longer for my order?",
+  "questionFastDeliverDescription": "Unfortunately, when it is busy it can sometimes take a little longer for your order to be delivered. The estimated delivery time is always indicated in the app before you place your order. If the order has not arrived after the indicated delivery time, you can contact our customer service.",
+  "questionForgotToAddTitle": "I forgot to add something to my order, can I change it?",
+  "questionForgotToAddDescription": "No, sorry. We will immediately start packing your order so it is impossible to make any changes after placing it.",
+  "questionDeliveryCostsTitle": "What are the delivery costs?",
+  "questionDeliveryCostsDescription": "The delivery costs are calculated based on the store distance from the delivery address you specified. The exact delivery costs for your current order can be found during the checkout.",
+  "signupForTheWaitList": "Sign up as customer or driver!",
+  "signupNowText": "Sign up now!",
+  "flowTitle": "How does it work?",
+  "features": "Features",
+  "benefits": "Benefits",
+  "howItWorks": "How it works",
+  "faq": "FAQ",
+  "navigations":[{
+      "name":"Features",
+      "href":"#features"
+    },
+    {
+      "name":"Benefits",
+      "href":"#benefits"
+    },
+    {
+      "name":"How It Works",
+      "href":"#howItWorks"
+    },
+    {
+      "name":"FAQ",
+      "href":"#faq"
+    }],
+  "faqs":[
+    {
+    "question":"What is Collect Your Shopping?",
+    "answer":"Collect Your Shopping is the shopping service for everything you are looking for. All your groceries, from fresh fruit and vegetables to ingredients for your dinner, but also everything you may need for a nice Friday afternoon drink or spring cleaning. We have everything and deliver it to your home, office or even the park in no time!"
+    },
+    {
+    "question":"Why do I sometimes have to wait longer for my order?",
+    "answer":"nfortunately, when it is busy it can sometimes take a little longer for your order to be delivered. The estimated delivery time is always indicated in the app before you place your order. If the order has not arrived after the indicated delivery time, you can contact our customer service."
+    },
+    {
+    "question":"I forgot to add something to my order, can I change it?",
+    "answer":"No, sorry. We will immediately start packing your order so it is impossible to make any changes after placing it."
+    },
+    {
+    "question":"What are the delivery costs?",
+    "answer":"The delivery costs are calculated based on the store distance from the delivery address you specified. The exact delivery costs for your current order can be found during the checkout."
+    }
+  ]
+}
