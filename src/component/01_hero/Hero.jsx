@@ -11,7 +11,7 @@ const Hero = ({convenienceDelivered, straigntToYourDoor, makeItEasyToShop, downl
         </div> 
         <div className='px-7 mb-4 lg:row-start-1 lg:flex lg:flex-col lg:gap-6 lg:mt-20 '>
             <h1 className='text-3xl mb-4  text-green font-medium capitalize pr-4 lg:pr-0 lg:text-[52px] lg:mb-0 lg:leading-[55px]'>{convenienceDelivered} <span className='text-orange tlg:ext-[45px]s'>{straigntToYourDoor}</span></h1>
-            <p className='leading-loose text-base  mb-4 lg:mb-0  lg:text-xl lg:leading-8 lg:pr-24'>{makeItEasyToShop}</p>
+            <p className='leading-loose text-base  mb-4 lg:mb-0  lg:text-lg lg:leading-8 lg:pr-24'>{makeItEasyToShop}</p>
             <button className='bg-orange py-3 px-14 rounded-full text-white text-sm lg:w-fit lg:text-lg lg:font-medium'>{downloadNowText}</button>
         </div>
       </div>
