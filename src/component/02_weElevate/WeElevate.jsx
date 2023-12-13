@@ -13,21 +13,21 @@ const WeElevate = ({weElevateTextGreen, weElevateTextBlack, welcomeToCys, liveTr
       desc: liveTrackingDescription,
       vid: '/assets/02_weElevate/live_tracking.gif',
       img: '/assets/02_weElevate/1.png',
-      alt: '',
+      alt: 'live tracking',
     },
     {
       title: wideSectionTitle,
       desc: wideSectionDescription,
       vid: '/assets/02_weElevate/wide.gif',
       img: '/assets/02_weElevate/2.png',
-      alt: '',
+      alt: 'wide section',
     },
     {
       title: deliveredInMinutesTitle,
       desc: deliveredInMinutesDescription,
       vid: '/assets/02_weElevate/delivered.gif',
       img: '/assets/02_weElevate/3.png',
-      alt: '',
+      alt: 'delivered in minute',
     },
   ])
 
@@ -66,10 +66,10 @@ const WeElevate = ({weElevateTextGreen, weElevateTextBlack, welcomeToCys, liveTr
 
         <div className="relative col-span-2 row-span-full flex-shrink-0 md:order-first">
           <div className={` pt-12 pb-6 lg:col-start-1 lg:row-start-1 lg:row-span-2 lg:col-span-2 lg:flex lg:justify-end lg:-mr-10 relative`}>
-            <Image src={infoList.current[0].vid} alt="live Tracking" width={900} height={900} className={`lg:h-[850px] lg:w-[490px] ${animate ? "animate-fade-in":""}`}/>
-            <div className={`${infoList.current[0].vid === "/assets/02_weElevate/wide.gif"? "bottom-[13%] lg:bottom-36":"bottom-[16%] lg:bottom-48"} absolute w-44 left-[25%] flex flex-col gap-3 lg:w-72 lg:pr-6 lg:left-56  ${animate ? "animate-fade-in":""}`}>
+            <Image src={infoList.current[0].vid} alt="video" width={900} height={900} className={`lg:h-[850px] lg:w-[490px] ${animate ? "animate-fade-in":""}`}/>
+            <div className={`${infoList.current[0].alt === "wide section"? "bottom-[140px]":"lg:bottom-48"} absolute w-44 left-[25%] flex flex-col gap-3 lg:w-72 lg:pr-6 lg:left-56  ${animate ? "animate-fade-in":""}`}>
               <h1 className="text-xl font-bold text-green tracking-wide lg:text-xl lg:tracking-wider lg:font-medium"> {infoList.current[0].title}</h1>
-              <p className="text-xs lg:text-sm">{infoList.current[0].desc}</p>
+              <p className={`text-xs lg:text-sm ${infoList.current[0].alt === "wide section"?"lg:p-0 lg:text-[13.5px]":""}`}>{infoList.current[0].desc}</p>
             </div>
           </div>
         </div>
@@ -88,8 +88,8 @@ const WeElevate = ({weElevateTextGreen, weElevateTextBlack, welcomeToCys, liveTr
                 {infoList.current.map((eachInfo) => (
                   <div key={eachInfo.title} className={`relative h-[200px]`}>
                     <Image src={eachInfo.img} className="h-44 rounded-2xl object-cover object-center md:h-48 md:w-40" alt='image' width={500} height={500} />
-                    <p className={`absolute top-0 p-4 text-lg leading-6 font-medium text-white ${animate ? "fade-in":""} `}>
-                      {eachInfo.title}
+                    <p className={`absolute top-0 p-4 text-lg leading-6 font-medium text-[13px] text-white ${animate ? "fade-in":""} `}>
+                      {eachInfo.title} 
                     </p>
                   </div>
                 ))}

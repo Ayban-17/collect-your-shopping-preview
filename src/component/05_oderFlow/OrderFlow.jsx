@@ -75,7 +75,7 @@ const OrderFlow = ({orderFlowTitle, orderFlowDescription, orderStep, orderPlacem
             <Image width={1500} height={750} alt="road" className={`relative hidden w-full object-cover object-center md:block `} src={infoList[currentlySelected].webBg} />
             
               {infoList.map((eachInfo, index) => (
-                <article className={`${animate? "animate-road":""} transition-all delay-500`} key={eachInfo.title}>
+                <article className={``} key={eachInfo.title}>
                   <OrderCard
                     {...eachInfo}
                     number={index}

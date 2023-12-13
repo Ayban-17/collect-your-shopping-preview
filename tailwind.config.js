@@ -31,8 +31,8 @@ module.exports = {
     },
     extend: {
       animation: {
-        'fade-in': 'fade-in 700ms ease-in-out forwards',
-        'fade-out': 'fade-out 1000ms ease-in-out forwards',
+        'fade-in': 'fade-in 400ms linear forwards',
+        'fade-out': 'fade-out 500ms linear forwards',
         marquee: 'marquee var(--marquee-duration) linear infinite',
         'spin-slow': 'spin 4s linear infinite',
         'spin-slower': 'spin 6s linear infinite',
@@ -54,7 +54,7 @@ module.exports = {
       keyframes: {
         'fade-in': {
           from: {
-            opacity: 0,
+            opacity: 0.5,
           },
           to: {
             opacity: 1,
