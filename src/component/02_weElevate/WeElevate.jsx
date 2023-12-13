@@ -57,7 +57,7 @@ const WeElevate = ({weElevateTextGreen, weElevateTextBlack, welcomeToCys, liveTr
   },[infoList.current[0].vid])
 
   return (
-    <section className="bg-[#EAEAEA] py-16 lg:flex lg:flex-col lg:items-center">
+    <section className="bg-[#EAEAEA] py-16 lg:flex lg:flex-col lg:items-center" id='features'>
       <div className=" lg:grid lg:grid-cols-5 lg:grid-rows-2 lg:max-w-[1440px]">
         <div className="px-6 lg:col-start-3 lg:col-span-3 lg:flex lg:flex-col lg:justify-center lg:px-16">
          <h1 className="text-green text-3xl capitalize font-medium mb-4 lg:text-5xl lg:tracking-wider lg:leading-[60px] lg:mt-32">{weElevateTextGreen} <span className="text-black">{weElevateTextBlack}</span></h1>

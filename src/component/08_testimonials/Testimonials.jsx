@@ -67,7 +67,7 @@ const Testimonials = () => {
                                     <img src="/assets/08_testimonials/quote.svg" alt="quote"  className="w-7 h-7 lg:w-12 lg:h-12"/>
                                     <p className="text-base font-light">I can't believe how Collect Your Shopping App has transformed my life! As a busy professional, I've always struggled to find the time to do my grocery shopping. But with this incredible app, I've found the perfect solution!</p>
                                     <div className="flex flex-col gap-2">
-                                        <h3 className="text-base">{name}</h3>
+                                        <h3 className="text-base font-bold">{name}</h3>
                                         <p className="text-base text-[#a5a5a5]">{address}</p>
                                     </div>
                                 </div>

@@ -9,10 +9,6 @@ const options = [{
     flag:"https://flagcdn.com/h20/gb.png",
     language:"English",
     code:"gb"
-},{
-    flag:"https://flagcdn.com/h20/us.png",
-    language:"English (US)",
-    code:"us"
 }]
 
 const LanguageSwitcher = ({setCountryCode, countryCode}) =>{

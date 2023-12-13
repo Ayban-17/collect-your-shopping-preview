@@ -4,7 +4,7 @@ import Question from "./Question"
 
 const Faqs = ({frequentlyTitle, askedQuestionsTitle, frequentlyAskedQuestionDescription, faqs}) => {
   return (
-    <section className="flex flex-col items-center">
+    <section className="flex flex-col items-center" id="faq">
         <img src="/assets/10_faqs/curve.png" alt="faq" className="w-full -mb-32 lg:-mb-[610px]"/>
         <div className="max-w-[1440px] px-8 py-10 lg:grid lg:grid-cols-2 lg:grid-rows-2 lg:pt-52 lg:pb-32 lg:gap-x-[95px]">
             <div className="lg:col-start-2 lg:flex lg:flex-col lg:justify-center lg:-ml-5">

@@ -59,7 +59,7 @@ const OrderFlow = ({orderFlowTitle, orderFlowDescription, orderStep, orderPlacem
 
 
   return (
-    <section className="flex justify-center bg-[#EAEAEA] px-4 py-10 lg:py-20">
+    <section className="flex justify-center bg-[#EAEAEA] px-4 py-10 lg:py-20" id='howItWorks'>
       <div className="flex max-w-[1440px]  flex-col gap-16 bg-contain bg-bottom bg-no-repeat ">
         <div className="flex flex-col items-center gap-4 lg:gap-8">
           <h1 className="text-3xl font-medium tracking-tight md:text-5xl md:tracking-wider">

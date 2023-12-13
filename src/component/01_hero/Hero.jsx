@@ -3,7 +3,7 @@ import React from 'react'
 
 const Hero = ({convenienceDelivered, straigntToYourDoor, makeItEasyToShop, downloadNowText }) => {
   return (
-    <section className='flex flex-col items-center relative mt-16 lg:mt-0'>
+    <section className='flex flex-col items-center relative mt-16 lg:mt-0' id=''>
        <div className='max-w-7xl mb-10 grid grid-cols-1 lg:grid-cols-[700px_1fr] lg:z-10 lg:mb-0'>
         <div className='flex mt-6 mb-16 lg:col-start-2 lg:-ml-56'>
             <Image src="/assets/01_hero/rider1.png" alt="rider" width={600} height={700} className='h-72 w-72 self-end -mb-14 -ml-12 lg:h-[540px] lg:w-[490px] lg:-mb-[110px]'/>      

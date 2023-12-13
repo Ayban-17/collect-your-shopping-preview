@@ -72,15 +72,15 @@
   "faq": "FAQ",
   "navigations":[{
     "name":"Kenmerken",
-    "href":"#Kenmerken"
+     "href":"#features"
   },
   {
     "name":"Voordelen",
-    "href":"#Voordelen"
+    "href":"#benefits"
   },
   {
     "name":"Hoe Het Werkt",
-    "href":"#HoeHetWerkt"
+     "href":"#howItWorks"
   },
   {
     "name":"FAQ",

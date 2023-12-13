@@ -35,7 +35,7 @@ const WhyCollect = ({featureTitle, featureConvenienceTitle, featureConvenienceDe
       },[infoList[currentlySelected].vid])
 
       return (
-        <section className="lg:flex lg:flex-col lg:items-center relative">
+        <section className="lg:flex lg:flex-col lg:items-center relative" id='benefits'>
             <div className={`max-w-[1920px] px-8 pt-10 pb-16 lg:grid lg:grid-cols-[18%_32%_1fr] lg:grid-rows-2 lg:pt-56 lg:px-0 lg:pb-10 `}>
                 <Image src="/assets/04_whyCollect/circle.svg" alt="circle" height={900} width={200} className=" hidden lg:flex lg:absolute lg:left-0 lg:top-36  lg:z-0 lg:h-[800px]"/>
                 <video loop muted reload="none" autoPlay="inView" playsInline  className={`rounded-5xl lg:col-start-3 lg:row-span-2 lg:row-start-2 lg:-mt-60 lg:h-[50%] ${animate? "animate-fade-in":""} lg:absolute lg:bottom-36 lg:right-0`} src={infoList[currentlySelected].vid}>

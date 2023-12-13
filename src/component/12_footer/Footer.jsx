@@ -15,7 +15,7 @@ const Footer = ({navigations}) => {
         <hr className='hidden lg:block lg:col-span-2 lg:row-start-2'/>
         <div className='flex flex-col py-10 gap-2 items-center lg:col-start-2 lg:row-start-1 lg:items-start lg:pl-56'>
           {navigations.map(({name,href}, index)=>(
-            <Link href={href} key={index}><span className="rounded-lg text-base font-medium text-gray-700 hover:text-green-600">{name}</span></Link>
+            <Link href={href} key={index}><span className="rounded-lg text-base text-gray-700 hover:text-green font-semibold">{name}</span></Link>
           ))}
         </div>
 
