@@ -102,5 +102,48 @@
       "question":"What are the delivery costs?",
       "answer":"The delivery costs are calculated based on the store distance from the delivery address you specified. The exact delivery costs for your current order can be found during the checkout."
       }
-    ]
+    ],
+    
+    "screenshots":[{
+      "id":1,
+      "img":"Order-Details",
+      "title":"Order Details",
+      "desc":"Access the secifics with Order Details, Dive into a comprehensive overview of your purchase, from item specifics to delivery updates. Stay informed and in control as you track your order seamlessly through this feature"
+  },{
+      "id":2,
+      "img":"Driver-Details",
+      "title":"Driver Details",
+      "desc":"Embark on a seamless journey by joining our driver community. Experience hassle free registration and unlock a world of opportunities as you sign up to become a valued part of the CYS delivery team"
+  },{
+      "id":3,
+      "img":"Account-Driver",
+      "title":"Driver Account",
+      "desc":"Empower out driver with the Driver Account Feature, now enhanced with CYS credit points. A rewarding experience awaits as drivers mnage their accounts seamlessly while accruing credit points, ensuring a mutually beneficial journey for both drivers and customers."
+  },{
+      "id":4,
+      "img":"Home",
+      "title":"Home Screen",
+      "desc":"Welcome to the heart of CYS Shopping! The Home screen is your gateway to a world of choices, promotions, and personalized recommendations. Embrace convenience right from the start."
+  },{
+      "id":5,
+      "img":"Store-Opened",
+      "title":" Open Store",
+      "desc":"Step into a virtual marketplace as you experience a store opened through our app. Immerse yourself in a user-friendly interface, where every aisle is just a tap away"
+  },{
+      "id":6,
+      "img":"Item-Opened",
+      "title":"Open Item",
+      "desc":"Elevate your shopping through experience by diving deep into individual items. Our Item Opened feature provides a closer look, allowing you to make informed decisions and discover the details that matters most to you"
+  },{
+      "id":7,
+      "img":"Cart-Checkout",
+      "title":"Cart Checkout",
+      "desc":"Effortlesly finalize your order with a streamline cart checkout. Confirm selections, choose your payment, and seal the deal - making your desired products just a click away."
+  }
+  ],
+  "awesomeScreenshotTitle":"Awesome Screenshots",
+  "awesomeScreenshotDesc":"Explore CYS shopping and see the app in action with our awesome screenshots. Your window to a world of convenience and style.",
+  "clientTestimonialsTitle":"Client Testimonials",
+  "clientTestimonialsDesc":"Dive into the joy of satisfied customers in our Testimonial section. Read about seamless shopping, timely deliveries, and exceptional service, as clients share their positive experiences with CYS.",
+  "clientTestimonial":"I can't believe how Collect Your Shopping App has transformed my life! As a busy professional, I've always struggled to find the time to do my grocery shopping. But with this incredible app, I've found the perfect solution!"
 }

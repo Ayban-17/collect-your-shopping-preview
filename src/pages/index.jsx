@@ -21,12 +21,13 @@ import CoreValues from '@/component/06_coreValues/CoreValues';
 
 export default function Home() {
   const {getContents, contents, loading} = useFetchContents(); 
-  const [countryCode, setCountryCode] = useState("gb");
+  const [countryCode, setCountryCode] = useState("nl");
 
   useEffect(()=>{
     getContents(countryCode);
   },[countryCode])
   
+
 
 if(loading){
   return <p>The page is Loading</p>

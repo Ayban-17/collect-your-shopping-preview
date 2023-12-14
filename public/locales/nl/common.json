@@ -103,5 +103,48 @@
     "question":"Wat zijn de bezorgkosten?",
     "answer":"De bezorgkosten worden berekend op basis van de winkelafstand vanaf het door u opgegeven afleveradres. De exacte bezorgkosten voor uw huidige bestelling vindt u tijdens het afrekenen."
     }
-  ]
+  ],
+  
+  "screenshots":[{
+    "id":1,
+    "img":"Order-Details",
+    "title":"Bestelgegevens",
+    "desc": "Krijg toegang tot de details met bestelgegevens. Duik in een uitgebreid overzicht van uw aankoop, van artikelspecificaties tot leveringsupdates. Blijf op de hoogte en houd de controle terwijl u uw bestelling naadloos volgt via deze functie"
+},{
+    "id":2,
+    "img": "Driver-Details",
+    "title": "Bestuurdergegevens",
+    "desc": "Ga op een naadloze reis door lid te worden van onze chauffeursgemeenschap. Ervaar probleemloze registratie en ontgrendel een wereld aan mogelijkheden terwijl u zich aanmeldt om een ​​gewaardeerd onderdeel te worden van het CYS-bezorgteam"
+},{
+    "id":3,
+    "img":"Account-Driver",
+    "title":"Berijdersaccount",
+    "desc": "Geef de chauffeur meer mogelijkheden met de functie Chauffeursaccount, nu uitgebreid met CYS-creditpunten. Er wacht een lonende ervaring als chauffeurs hun accounts naadloos beheren en creditpunten verzamelen, waardoor een wederzijds voordelige reis voor zowel chauffeurs als klanten wordt gegarandeerd."
+},{
+    "id":4,
+    "img":"Home",
+    "title":"Startscherm",
+    "desc":"Welkom in het hart van CYS Shopping! Het startscherm is uw toegangspoort tot een wereld vol keuzes, promoties en gepersonaliseerde aanbevelingen. Omarm gemak vanaf het begin."
+},{
+    "id":5,
+    "img":"Store-Opened",
+    "title": "Winkel openen",
+    "desc": "Stap een virtuele marktplaats binnen en ervaar hoe een winkel wordt geopend via onze app. Dompel uzelf onder in een gebruiksvriendelijke interface, waar elk gangpad slechts één tik verwijderd is"
+},{
+    "id":6,
+    "img":"Item-Opened",
+    "title":"Artikel openen",
+    "desc": "Verbeter uw winkelervaring door diep in afzonderlijke artikelen te duiken. Onze functie 'Artikel geopend' biedt een kijkje van dichterbij, zodat u weloverwogen beslissingen kunt nemen en de details kunt ontdekken die voor u het belangrijkst zijn."
+},{
+    "id":7,
+    "img":"Cart-Checkout",
+    "title":"Winkelwagen afrekenen",
+    "desc": "Rond uw bestelling moeiteloos af met een gestroomlijnde winkelwagenafhandeling. Bevestig uw selecties, kies uw betaling en sluit de deal - uw gewenste producten zijn slechts één klik verwijderd."
+}
+],
+"awesomeScreenshotTitle": "Geweldige schermafbeeldingen",
+  "awesomeScreenshotDesc": "Ontdek CYS-winkelen en zie de app in actie met onze geweldige screenshots. Uw venster naar een wereld van gemak en stijl.",
+  "clientTestimonialsTitle":"Getuigenissen van klanten",
+  "clientTestimonialsDesc":"Duik in de vreugde van tevreden klanten in onze Testimonial-sectie. Lees over naadloos winkelen, tijdige leveringen en uitzonderlijke service, terwijl klanten hun positieve ervaringen met CYS delen.",
+  "clientTestimonial": "Ik kan niet geloven hoe de Collect Your Shopping-app mijn leven heeft veranderd! Als drukke professional heb ik altijd moeite gehad om de tijd te vinden om boodschappen te doen. Maar met deze geweldige app heb ik ontdekt de perfecte oplossing!"
 }

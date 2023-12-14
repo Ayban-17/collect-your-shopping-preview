@@ -14,7 +14,7 @@ const options = [{
 const LanguageSwitcher = ({setCountryCode, countryCode}) =>{
 
     const [isOpen, setIsOpen] = useState(false);
-    const [chosenLanguage, setChosenLanguage] = useState({code:"nl", language:"Dutch"});
+    const [chosenLanguage, setChosenLanguage] = useState({code:"gb", language:"English"});
 
     const isOptionOpen = isOpen ? true : false;
 

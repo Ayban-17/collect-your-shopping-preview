@@ -2,46 +2,10 @@ import Image from "next/image"
 import {useState} from "react"
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/solid'
 
-const Screenshots = () => {
+const Screenshots = ({screenshots, awesomeScreenshotTitle, awesomeScreenshotDesc}) => {
     const [currentActiveIndex, setCurrentActiveIndex] = useState(4)
     const [animate, setAnimate] = useState("")
-    const [focus, setFocus] = useState([{
-        id:1,
-        img:"Order-Details",
-        title:"Order Details",
-        desc:"Access the secifics with Order Details, Dive into a comprehensive overview of your purchase, from item specifics to delivery updates. Stay informed and in control as you track your order seamlessly through this feature"
-    },{
-        id:2,
-        img:"Driver-Details",
-        title:"Driver Details",
-        desc:"Embark on a seamless journey by joining our driver community. Experience hassle free registration and unlock a world of opportunities as you sign up to become a valued part of the CYS delivery team"
-    },{
-        id:3,
-        img:"Account-Driver",
-        title:"Driver Account",
-        desc:"Empower out driver with the Driver Account Feature, now enhanced with CYS credit points. A rewarding experience awaits as drivers mnage their accounts seamlessly while accruing credit points, ensuring a mutually beneficial journey for both drivers and customers."
-    },{
-        id:4,
-        img:"Home",
-        title:"Home Screen",
-        desc:"Welcome to the heart of CYS Shopping! The Home screen is your gateway to a world of choices, promotions, and personalized recommendations. Embrace convenience right from the start."
-    },{
-        id:5,
-        img:"Store-Opened",
-        title:" Open Store",
-        desc:"Step into a virtual marketplace as you experience a store opened through our app. Immerse yourself in a user-friendly interface, where every aisle is just a tap away"
-    },{
-        id:6,
-        img:"Item-Opened",
-        title:"Open Item",
-        desc:"Elevate your shopping through experience by diving deep into individual items. Our Item Opened feature provides a closer look, allowing you to make informed decisions and discover the details that matters most to you"
-    },{
-        id:7,
-        img:"Cart-Checkout",
-        title:"Cart Checkout",
-        desc:"Effortlesly finalize your order with a streamline cart checkout. Confirm selections, choose your payment, and seal the deal - making your desired products just a click away."
-    },
-    ])
+    const [focus, setFocus] = useState(screenshots)
 
     const handleNext = () => {
         const newFocus = [...focus];
@@ -66,8 +30,8 @@ const Screenshots = () => {
     <section className="bg-grey flex flex-col items-center">
         <div className="max-w-[1440px] px-8">
             <div className="mb-8 lg:flex lg:flex-col lg:gap-6">
-                <h1 className="text-center text-[29px] font-medium px-20 lg:text-4xl lg:tracking-wider">Awesome Screenshots</h1>
-                <p className="hidden lg:block lg:text-center lg:px-72">Explore CYS shopping and see the app in action with our awesome screenshots. Your window to a world of convenience and style.</p>
+                <h1 className="text-center text-[29px] font-medium px-20 lg:text-4xl lg:tracking-wider">{awesomeScreenshotTitle}</h1>
+                <p className="hidden lg:block lg:text-center lg:px-72">{awesomeScreenshotDesc}</p>
             </div>
 
             <div className=" relative lg:py-16 lg:flex lg:items-center lg:justify-center lg:gap-4">
@@ -87,7 +51,7 @@ const Screenshots = () => {
 
             <div className="flex flex-col gap-2 py-8" >
                 <h1 className="text-center text-green font-semibold text-lg">{focus[3].title}</h1>
-                <p className="text-center px-2 text-base font-light lg:px-[200px] lg:text-sm">{focus[3].desc}</p>
+                <p className="text-center px-2 text-base font-light lg:px-[180px] lg:text-sm">{focus[3].desc}</p>
                 <div className="flex gap-3 justify-center items-center py-8 lg:gap-4">
                     <button className="w-8 h-8 border-2 border-green text-green rounded-full p-1  lg:hidden"><ChevronLeftIcon/></button>
                     <div className={`w-2 h-2 ${currentActiveIndex === 4? "bg-green":" bg-[#B9B9B9]"}  rounded-full lg:w-[10px] lg:h-[10px]`}></div>
@@ -106,3 +70,42 @@ const Screenshots = () => {
 }
 
 export default Screenshots
+
+// [
+// {
+//     id:1,
+//     img:"Order-Details",
+//     title:"Order Details",
+//     desc:"Access the secifics with Order Details, Dive into a comprehensive overview of your purchase, from item specifics to delivery updates. Stay informed and in control as you track your order seamlessly through this feature"
+// },{
+//     id:2,
+//     img:"Driver-Details",
+//     title:"Driver Details",
+//     desc:"Embark on a seamless journey by joining our driver community. Experience hassle free registration and unlock a world of opportunities as you sign up to become a valued part of the CYS delivery team"
+// },{
+//     id:3,
+//     img:"Account-Driver",
+//     title:"Driver Account",
+//     desc:"Empower out driver with the Driver Account Feature, now enhanced with CYS credit points. A rewarding experience awaits as drivers mnage their accounts seamlessly while accruing credit points, ensuring a mutually beneficial journey for both drivers and customers."
+// },{
+//     id:4,
+//     img:"Home",
+//     title:"Home Screen",
+//     desc:"Welcome to the heart of CYS Shopping! The Home screen is your gateway to a world of choices, promotions, and personalized recommendations. Embrace convenience right from the start."
+// },{
+//     id:5,
+//     img:"Store-Opened",
+//     title:" Open Store",
+//     desc:"Step into a virtual marketplace as you experience a store opened through our app. Immerse yourself in a user-friendly interface, where every aisle is just a tap away"
+// },{
+//     id:6,
+//     img:"Item-Opened",
+//     title:"Open Item",
+//     desc:"Elevate your shopping through experience by diving deep into individual items. Our Item Opened feature provides a closer look, allowing you to make informed decisions and discover the details that matters most to you"
+// },{
+//     id:7,
+//     img:"Cart-Checkout",
+//     title:"Cart Checkout",
+//     desc:"Effortlesly finalize your order with a streamline cart checkout. Confirm selections, choose your payment, and seal the deal - making your desired products just a click away."
+// }
+// ]
