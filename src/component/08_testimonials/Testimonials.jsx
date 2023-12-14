@@ -52,7 +52,7 @@ const Testimonials = ({clientTestimonialsTitle, clientTestimonialsDesc, clientTe
     <section className="relative overflow-hidden flex flex-col items-center">
         <img src="/assets/08_testimonials/bg.png" alt="bg" className="relative z-10 w-full"/>
         <video src="/assets/08_testimonials/circleTop.mp4" autoPlay loop muted className={"absolute -top-6 right-0 z-0 w-56 lg:w-[600px] lg:-right-52 "+style.topCircle}></video>
-        <div className="max-w-[1440px] -mt-36 px-10 lg:flex lg:flex-col lg:items-center lg:gap-10 lg:-mt-[700px] lg:mb-10">
+        <div className="max-w-[1440px] px-10 mt-16 lg:flex lg:flex-col lg:items-center lg:mt-20 lg:gap-10 lg:mb-10">
             <div className="lg:mb-10 relative z-10">
                 <h1 className="text-[29px] font-medium text-center mb-8 tracking-wide lg:text-4xl lg:tracking-wide lg:mb-1">{clientTestimonialsTitle}</h1>
                 <p className="hidden lg:block lg:text-center lg:px-60">{clientTestimonialsDesc}</p>

@@ -5,7 +5,7 @@ const LogoCarousel = () => {
 
   return (
     <section className="flex justify-center bg-grey">
-        <div className="max-w-[1440px] py-10 lg:h-96 flex flex-col items-center gap-4">
+        <div className="max-w-[1440px] my-10 h-24 lg:h-56 lg:my-20 flex flex-col items-center lg:gap-10">
             <h1 className="text-[29px] font-medium mb-6 lg:text-4xl lg:mb-0 lg:tracking-wider">As Featured In</h1>
             <div className={styles.slider}>
                 <div className={styles.sliderTrack}>
