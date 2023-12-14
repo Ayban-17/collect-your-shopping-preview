@@ -73,7 +73,7 @@ export function ButtonGroup(props) {
 
 export function DownloadAppButton(props){
   return(
-    <button className='bg-[#00000040] flex justify-center items-center gap-5 py-[11px] px-8 rounded-full hover:bg-black'>
+    <button className='bg-[#00000040] flex justify-center items-center gap-5 py-[15px]  w-72 rounded-full hover:bg-black'>
       <img src={props.icon} alt="google" className='w-9 h-9'/>
       <div className='text-white self-center flex flex-col items-start '>
         <p className='text-[10px] font-medium'>{props.avail}</p>
