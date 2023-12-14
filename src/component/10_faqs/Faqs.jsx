@@ -1,11 +1,12 @@
 import Image from "next/image"
 import Question from "./Question"
+import { useEffect, useState } from "react"
 
 
 const Faqs = ({frequentlyTitle, askedQuestionsTitle, frequentlyAskedQuestionDescription, faqs}) => {
   return (
     <section className="flex flex-col items-center" id="faq">
-        <img src="/assets/10_faqs/curve.png" alt="faq" className="w-full -mb-32 lg:-mb-[610px]"/>
+        <img src="/assets/10_faqs/curve.png" alt="faq" className="w-full"/>
         <div className="max-w-[1440px] px-8 py-10 lg:grid lg:grid-cols-2 lg:grid-rows-2 lg:pt-52 lg:pb-32 lg:gap-x-[95px]">
             <div className="lg:col-start-2 lg:flex lg:flex-col lg:justify-center lg:-ml-5">
                 <h1 className="text-[30px] capitalize leading-9 tracking-wide font-medium lg:normal-case lg:text-4xl lg:mb-1 lg:mt-8 lg:tracking-wider"><span className="text-green">{frequentlyTitle}</span> {askedQuestionsTitle}</h1>

@@ -33,6 +33,7 @@ module.exports = {
       animation: {
         'fade-in': 'fade-in 400ms linear forwards',
         'fade-out': 'fade-out 500ms linear forwards',
+        "slide-in":"slide-in 1000ms 6000ms linear forwards ",
         marquee: 'marquee var(--marquee-duration) linear infinite',
         'spin-slow': 'spin 4s linear infinite',
         'spin-slower': 'spin 6s linear infinite',
@@ -74,6 +75,14 @@ module.exports = {
           },
           to:{
             opacity:0
+          }
+        },
+        "slide-in":{
+          from:{
+            transform: "translateX(0)"
+          },
+          to:{
+            transform: "translateX(250px)"
           }
         },
         marquee: {
