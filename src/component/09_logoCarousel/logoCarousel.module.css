@@ -9,6 +9,7 @@
 .slider .sliderTrack{
     animation: scroll 20s linear infinite forwards;
     display: flex;
+    align-items: center;
     gap: 40px;
     width: calc(250px * 18);
 }

@@ -1,11 +1,13 @@
 import Image from "next/image"
-import {useState} from "react"
+import { useState, useRef, useEffect } from 'react'
+import {useAutoAnimate} from '@formkit/auto-animate/react'
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/solid'
 
 const Screenshots = ({screenshots, awesomeScreenshotTitle, awesomeScreenshotDesc}) => {
     const [currentActiveIndex, setCurrentActiveIndex] = useState(4)
     const [animate, setAnimate] = useState("")
     const [focus, setFocus] = useState(screenshots)
+    const [parent, enableAnimations] = useAutoAnimate(/* optional config */)
 
     const handleNext = () => {
         const newFocus = [...focus];
@@ -26,6 +28,7 @@ const Screenshots = ({screenshots, awesomeScreenshotTitle, awesomeScreenshotDesc
         setFocus(newFocus);
         setCurrentActiveIndex(newFocus[3].id)
     }
+
     return (
     <section className="bg-grey flex flex-col items-center">
         <div className="max-w-[1440px] px-8">
@@ -37,7 +40,7 @@ const Screenshots = ({screenshots, awesomeScreenshotTitle, awesomeScreenshotDesc
             <div className=" relative lg:py-16 lg:flex lg:items-center lg:justify-center lg:gap-4">
                 <Image src="/assets/07_screenshots/Mobile.png" alt="phone frame" height={800} width={500} className="w-64 h-[490px] absolute left-1/2 -translate-x-1/2 z-10 lg:w-[300px] lg:h-[590px]"/>
                 <button className="w-8 h-8 border-2 border-green text-green  hover:text-orange hover:border-orange rounded-full p-1  hidden lg:inline-block lg:mx-8" onClick={handlePrev}><ChevronLeftIcon/></button>
-                <div className="-translate-x-[335px] flex items-center gap-8 md:-translate-x-[138px] lg:translate-x-[1px]  lg:gap-5">
+                <div className="-translate-x-[335px] flex items-center gap-8 md:-translate-x-[138px] lg:translate-x-[1px]  lg:gap-5" ref={parent}>
                     <Image src={`/assets/07_screenshots/${focus[0].img}.png`} alt="screenshot" height={800} width={500} className={`w-60 h-[410px] blur-sm opacity-60  lg:w-48 hidden ${animate}`}/>
                     <Image src={`/assets/07_screenshots/${focus[1].img}.png`} alt="screenshot" height={800} width={500} className={`w-60 h-[410px] blur-sm opacity-60  lg:w-48 ${animate}`}/>
                     <Image src={`/assets/07_screenshots/${focus[2].img}.png`} alt="screenshot" height={800} width={500} className={`w-60 h-[410px] blur-sm opacity-60  lg:w-48 ${animate}`}/>
@@ -51,8 +54,8 @@ const Screenshots = ({screenshots, awesomeScreenshotTitle, awesomeScreenshotDesc
 
             <div className="flex flex-col gap-2 py-8" >
                 <h1 className="text-center text-green font-semibold text-lg">{focus[3].title}</h1>
-                <p className="text-center px-6 text-base font-light lg:px-[180px] lg:text-sm">{focus[3].desc}</p>
-                <div className="flex gap-3 justify-center items-center py-8 lg:gap-4">
+                <p className="text-center px-6 text-base font-light lg:px-[250px] lg:h-20 lg:text-sm ">{focus[3].desc}</p>
+                <div className="flex gap-3 justify-center items-center py-8 lg:gap-4 lg:-mt-10">
                     <button className="w-8 h-8 border-2 border-green text-green rounded-full p-1  lg:hidden" onClick={handlePrev}><ChevronLeftIcon/></button>
                     <div className={`w-2 h-2 ${currentActiveIndex === 4? "bg-green":" bg-[#B9B9B9]"}  rounded-full lg:w-[10px] lg:h-[10px]`}></div>
                     <div className={`w-2 h-2 ${currentActiveIndex === 3? "bg-green":" bg-[#B9B9B9]"}  rounded-full lg:w-[10px] lg:h-[10px]`}></div>

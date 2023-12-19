@@ -10,88 +10,88 @@ const LogoCarousel = () => {
             <div className={styles.slider}>
                 <div className={styles.sliderTrack}>
                     <div className={styles.slide}>
-                        <Image src="/assets/09_logoCarousel/REWE.png" width={600} height={600} alt="logo" className="w-full h-full"/>
+                        <Image src="/assets/09_logoCarousel/REWE.png" width={600} height={600} alt="logo" className="w-96 h-15"/>
                     </div>
                     <div className={styles.slide}>
-                        <Image src="/assets/09_logoCarousel/EkoPlaza.png" width={600} height={600} alt="logo" className="w-full h-full"/>
+                        <Image src="/assets/09_logoCarousel/EkoPlaza.png" width={600} height={600} alt="logo" className="w-96 h-15"/>
                     </div>
                     <div className={styles.slide}>
-                        <Image src="/assets/09_logoCarousel/LIDL.png" width={600} height={600} alt="logo" className="w-full h-full"/>
+                        <Image src="/assets/09_logoCarousel/LIDL.png" width={600} height={600} alt="logo" className="w-96 h-15"/>
                     </div>
                     <div className={styles.slide}>
-                        <Image src="/assets/09_logoCarousel/7Eleven.png" width={600} height={600} alt="logo" className="w-full h-full"/>
+                        <Image src="/assets/09_logoCarousel/7Eleven.png" width={600} height={600} alt="logo" className="w-96 h-15"/>
                     </div>
                     <div className={styles.slide}>
-                        <Image src="/assets/09_logoCarousel/Tesco.png" width={600} height={600} alt="logo" className="w-full h-full"/>
+                        <Image src="/assets/09_logoCarousel/Tesco.png" width={600} height={600} alt="logo" className="w-96 h-15"/>
                     </div>
                     <div className={styles.slide}>
-                        <Image src="/assets/09_logoCarousel/AlbertHeijn.png" width={600} height={600} alt="logo" className="w-full h-full"/>
+                        <Image src="/assets/09_logoCarousel/AlbertHeijn.png" width={600} height={600} alt="logo" className="w-96 h-15"/>
                     </div>
                     <div className={styles.slide}>
-                        <Image src="/assets/09_logoCarousel/Kaufland.png" width={600} height={600} alt="logo" className="w-full h-full"/>
+                        <Image src="/assets/09_logoCarousel/Kaufland.png" width={600} height={600} alt="logo" className="w-96 h-15"/>
                     </div>
                     <div className={styles.slide}>
-                        <Image src="/assets/09_logoCarousel/REWE.png" width={600} height={600} alt="logo" className="w-full h-full"/>
+                        <Image src="/assets/09_logoCarousel/REWE.png" width={600} height={600} alt="logo" className="w-96 h-15"/>
                     </div>
                     <div className={styles.slide}>
-                        <Image src="/assets/09_logoCarousel/EkoPlaza.png" width={600} height={600} alt="logo" className="w-full h-full"/>
+                        <Image src="/assets/09_logoCarousel/EkoPlaza.png" width={600} height={600} alt="logo" className="w-96 h-15"/>
                     </div>
                     <div className={styles.slide}>
-                        <Image src="/assets/09_logoCarousel/LIDL.png" width={600} height={600} alt="logo" className="w-full h-full"/>
+                        <Image src="/assets/09_logoCarousel/LIDL.png" width={600} height={600} alt="logo" className="w-96 h-15"/>
                     </div>
                     <div className={styles.slide}>
-                        <Image src="/assets/09_logoCarousel/7Eleven.png" width={600} height={600} alt="logo" className="w-full h-full"/>
+                        <Image src="/assets/09_logoCarousel/7Eleven.png" width={600} height={600} alt="logo" className="w-96 h-15"/>
                     </div>
                     <div className={styles.slide}>
-                        <Image src="/assets/09_logoCarousel/Tesco.png" width={600} height={600} alt="logo" className="w-full h-full"/>
+                        <Image src="/assets/09_logoCarousel/Tesco.png" width={600} height={600} alt="logo" className="w-96 h-15"/>
                     </div>
                     <div className={styles.slide}>
-                        <Image src="/assets/09_logoCarousel/AlbertHeijn.png" width={600} height={600} alt="logo" className="w-full h-full"/>
+                        <Image src="/assets/09_logoCarousel/AlbertHeijn.png" width={600} height={600} alt="logo" className="w-96 h-15"/>
                     </div>
                     <div className={styles.slide}>
-                        <Image src="/assets/09_logoCarousel/Kaufland.png" width={600} height={600} alt="logo" className="w-full h-full"/>
+                        <Image src="/assets/09_logoCarousel/Kaufland.png" width={600} height={600} alt="logo" className="w-96 h-15"/>
                     </div>
                     <div className={styles.slide}>
-                        <Image src="/assets/09_logoCarousel/REWE.png" width={600} height={600} alt="logo" className="w-full h-full"/>
+                        <Image src="/assets/09_logoCarousel/REWE.png" width={600} height={600} alt="logo" className="w-96 h-15"/>
                     </div>
                     <div className={styles.slide}>
-                        <Image src="/assets/09_logoCarousel/EkoPlaza.png" width={600} height={600} alt="logo" className="w-full h-full"/>
+                        <Image src="/assets/09_logoCarousel/EkoPlaza.png" width={600} height={600} alt="logo" className="w-96 h-15"/>
                     </div>
                     <div className={styles.slide}>
-                        <Image src="/assets/09_logoCarousel/LIDL.png" width={600} height={600} alt="logo" className="w-full h-full"/>
+                        <Image src="/assets/09_logoCarousel/LIDL.png" width={600} height={600} alt="logo" className="w-96 h-15"/>
                     </div>
                     <div className={styles.slide}>
-                        <Image src="/assets/09_logoCarousel/7Eleven.png" width={600} height={600} alt="logo" className="w-full h-full"/>
+                        <Image src="/assets/09_logoCarousel/7Eleven.png" width={600} height={600} alt="logo" className="w-96 h-15"/>
                     </div>
                     <div className={styles.slide}>
-                        <Image src="/assets/09_logoCarousel/Tesco.png" width={600} height={600} alt="logo" className="w-full h-full"/>
+                        <Image src="/assets/09_logoCarousel/Tesco.png" width={600} height={600} alt="logo" className="w-96 h-15"/>
                     </div>
                     <div className={styles.slide}>
-                        <Image src="/assets/09_logoCarousel/AlbertHeijn.png" width={600} height={600} alt="logo" className="w-full h-full"/>
+                        <Image src="/assets/09_logoCarousel/AlbertHeijn.png" width={600} height={600} alt="logo" className="w-96 h-15"/>
                     </div>
                     <div className={styles.slide}>
-                        <Image src="/assets/09_logoCarousel/Kaufland.png" width={600} height={600} alt="logo" className="w-full h-full"/>
+                        <Image src="/assets/09_logoCarousel/Kaufland.png" width={600} height={600} alt="logo" className="w-96 h-15"/>
                     </div>
                     <div className={styles.slide}>
-                        <Image src="/assets/09_logoCarousel/REWE.png" width={600} height={600} alt="logo" className="w-full h-full"/>
+                        <Image src="/assets/09_logoCarousel/REWE.png" width={600} height={600} alt="logo" className="w-96 h-15"/>
                     </div>
                     <div className={styles.slide}>
-                        <Image src="/assets/09_logoCarousel/EkoPlaza.png" width={600} height={600} alt="logo" className="w-full h-full"/>
+                        <Image src="/assets/09_logoCarousel/EkoPlaza.png" width={600} height={600} alt="logo" className="w-96 h-15"/>
                     </div>
                     <div className={styles.slide}>
-                        <Image src="/assets/09_logoCarousel/LIDL.png" width={600} height={600} alt="logo" className="w-full h-full"/>
+                        <Image src="/assets/09_logoCarousel/LIDL.png" width={600} height={600} alt="logo" className="w-96 h-15"/>
                     </div>
                     <div className={styles.slide}>
-                        <Image src="/assets/09_logoCarousel/7Eleven.png" width={600} height={600} alt="logo" className="w-full h-full"/>
+                        <Image src="/assets/09_logoCarousel/7Eleven.png" width={600} height={600} alt="logo" className="w-96 h-15"/>
                     </div>
                     <div className={styles.slide}>
-                        <Image src="/assets/09_logoCarousel/Tesco.png" width={600} height={600} alt="logo" className="w-full h-full"/>
+                        <Image src="/assets/09_logoCarousel/Tesco.png" width={600} height={600} alt="logo" className="w-96 h-15"/>
                     </div>
                     <div className={styles.slide}>
-                        <Image src="/assets/09_logoCarousel/AlbertHeijn.png" width={600} height={600} alt="logo" className="w-full h-full"/>
+                        <Image src="/assets/09_logoCarousel/AlbertHeijn.png" width={600} height={600} alt="logo" className="w-96 h-15"/>
                     </div>
                     <div className={styles.slide}>
-                        <Image src="/assets/09_logoCarousel/Kaufland.png" width={600} height={600} alt="logo" className="w-full h-full"/>
+                        <Image src="/assets/09_logoCarousel/Kaufland.png" width={600} height={600} alt="logo" className="w-96 h-15"/>
                     </div>
                 </div>
             </div>
