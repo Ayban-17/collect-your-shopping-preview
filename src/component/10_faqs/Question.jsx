@@ -15,7 +15,7 @@ const Question = ({question, answer}) => {
     setIsOpen(!isOpen);
   };
   return (
-    <div className=' border-b-[#9E9E9E] border-b-[1px] py-2 ' ref={parent}>
+    <div className=' border-b-[#9E9E9E] border-b-[1px] py-2 lg:w-[520px]' ref={parent}>
       <div className='grid grid-cols-[1fr_25px]'>
         <p className='pr-8'>{question}</p>
         <div className='h-5 w-5 font-bold text-green hover:text-orange' onClick={toggleAccordion}> <PlusIcon/></div>

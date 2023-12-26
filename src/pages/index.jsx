@@ -21,7 +21,7 @@ import CoreValues from '@/component/06_coreValues/CoreValues';
 
 export default function Home() {
   const {getContents, contents, loading} = useFetchContents(); 
-  const [countryCode, setCountryCode] = useState("en");
+  const [countryCode, setCountryCode] = useState("gb");
 
   useEffect(()=>{
     getContents(countryCode);
