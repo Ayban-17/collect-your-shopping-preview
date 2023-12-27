@@ -18,6 +18,16 @@ const Awards = ({starsText, mobileUxAwardText, featuredByAppleText}) => {
             <p className="text-[10px] font-medium text-center lg:text-xl  ">{featuredByAppleText}</p>
           </div>
         </div>
+
+      <article className="border-8 border-green">
+      <tolstoy-carousel
+        data-tags="{% for tag in product.tags -%}{{ tag }},{%- endfor %}"
+        class="tolstoy-carousel"
+        data-publish-id="8hj7ctbwtyiln" 
+        data-product-id="{{ product.id }}">
+      </tolstoy-carousel>
+      </article>
+  
     </section>
   )
 }

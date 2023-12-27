@@ -39,7 +39,7 @@ const Screenshots = ({screenshots, awesomeScreenshotTitle, awesomeScreenshotDesc
             <div className=" relative lg:py-16 lg:flex lg:items-center lg:justify-center lg:gap-4">
                 <Image src="/assets/07_screenshots/Mobile.png" alt="phone frame" height={800} width={500} className="w-64 h-[490px] absolute left-1/2 -translate-x-1/2 z-10 lg:w-[300px] lg:h-[590px]"/>
                 <button className="w-8 h-8 border-2 border-green text-green  hover:text-orange hover:border-orange rounded-full p-1  hidden lg:inline-block lg:mx-8" onClick={handlePrev}><ChevronLeftIcon/></button>
-                <div className="-translate-x-[335px] flex items-center gap-8 md:-translate-x-[138px] lg:translate-x-[1px]  lg:gap-5" >
+                <div className="-translate-x-[384px] flex items-center gap-8 md:-translate-x-[138px] lg:translate-x-[1px]  lg:gap-5" >
                     <Image src={`/assets/07_screenshots/${focus[0].img}.png`} alt="screenshot" height={800} width={500} className={`w-60 h-[410px] blur-sm opacity-60  lg:w-48 hidden ${animate}`}/>
                     <Image src={`/assets/07_screenshots/${focus[1].img}.png`} alt="screenshot" height={800} width={500} className={`w-60 h-[410px] blur-sm opacity-60  lg:w-48 ${animate}`}/>
                     <Image src={`/assets/07_screenshots/${focus[2].img}.png`} alt="screenshot" height={800} width={500} className={`w-60 h-[410px] blur-sm opacity-60  lg:w-48 ${animate}`}/>
