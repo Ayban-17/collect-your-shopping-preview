@@ -10,11 +10,6 @@ export default function Document() {
       <body className="flex h-screen flex-col">
         <Main />
         <NextScript />
-        <Script
-          src="https://widget.gotolstoy.com/widget/widget.js"
-          onError={() => setHasError(true)}
-          onReady={() => setIsReady(true)}
-        />
       </body>
     </Html>
   )
